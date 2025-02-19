@@ -1,10 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './assets/components/Header'
-import Footer from './assets/components/Footer'
-import Content from './assets/components/Content'
+import Header from './assets/components/Header/Header'
+import Footer from './assets/components/Footer/Footer'
+import Content from './assets/components/Content/Content'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   
