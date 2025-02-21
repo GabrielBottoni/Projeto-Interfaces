@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -14,7 +15,7 @@ function Footer() {
       </div>
       <div>
         <p>
-          <a href="#">Github</a> | <a href="#">LinkedIn</a>
+          <a href="https://github.com/GabrielBottoni" target="_blank"> <FaGithub size={24}/> Github</a> | <a href="https://www.linkedin.com/in/gabrielbottoni" target="_blank"> <FaLinkedin size={24}/> LinkedIn</a>
         </p>
       </div>
     </footer>

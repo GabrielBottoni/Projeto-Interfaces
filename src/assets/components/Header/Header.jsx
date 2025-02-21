@@ -28,7 +28,11 @@ function Header() {
                     <NavbarBrand className='pe-none'>
                         <img alt="logo" src={Lotuuus} style={ {height:'50px'} } /> <span>Lotus Health</span>
                     </NavbarBrand>
+
+                    {location.pathname !== "/" && (
                     <NavbarToggler onClick={toggle} aria-label="Toggle navigation" />
+                    )}
+                    
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="ms-auto" navbar>
                             <NavItem>

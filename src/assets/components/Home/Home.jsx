@@ -42,7 +42,7 @@ function Home() {
                 <CardTitle tag="h5" className="mb-3">{plano.nome}</CardTitle>
                 <CardText>{plano.descricao}</CardText>
                 <Link to="/content">
-                <Button color="primary" className="mt-4">Saiba Mais</Button>
+                <Button color="primary" className="mt-4">Acessar formulario</Button>
                 </Link>
               </CardBody>
             </Card>
