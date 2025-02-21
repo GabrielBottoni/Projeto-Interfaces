@@ -1,0 +1,15 @@
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-style {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}

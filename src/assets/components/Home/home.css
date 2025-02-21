@@ -1,7 +1,12 @@
 html, body {
-    height: 100vh;
+    
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     background-color: #A7E0C2;
+}
+  
+
+.container-home {
+    display: flex;
+    flex-direction: column;
 }

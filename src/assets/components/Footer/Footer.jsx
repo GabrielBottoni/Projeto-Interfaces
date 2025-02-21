@@ -1,8 +1,9 @@
 import React from 'react'
+import './footer.css'
 
 function Footer() {
   return (
-<footer className={'fixed-bottom'} style={{ backgroundColor: '#f8f9fa', padding: '20px', textAlign: 'center' }}>
+<footer className="mb-0 footer-style">
       <div>
         <p>&copy; {new Date().getFullYear()} - Todos os direitos reservados.</p>
       </div>
@@ -13,7 +14,7 @@ function Footer() {
       </div>
       <div>
         <p>
-          <a href="#">Sobre nós</a> | <a href="#">Contato</a> | <a href="#">Política de Privacidade</a>
+          <a href="#">Github</a> | <a href="#">LinkedIn</a>
         </p>
       </div>
     </footer>

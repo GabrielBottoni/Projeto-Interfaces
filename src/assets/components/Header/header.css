@@ -1,4 +1,14 @@
-.nav_style, .nav-link {
+.nav-link-hidden[data-active="true"] {
+    display: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.nav_style,
+.nav-link {
     background-color: #ffffff;
     color: black;
     font-size: 20px;
@@ -10,4 +20,8 @@
 
 .navbar-brand span {
     padding: 0%;
+}
+
+.container-fluid {
+    background-color: #ffffff;
 }
