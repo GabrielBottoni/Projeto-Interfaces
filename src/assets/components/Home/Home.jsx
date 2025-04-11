@@ -8,7 +8,7 @@ function Home() {
   const [planos, setPlanos] = useState([]);
 
   useEffect(() => {
-    fetch("/public/planos.json")
+    fetch("/planos.json")
       .then((response) => response.json())
       .then((data) => setPlanos(data.planos))
       .catch((error) => console.error("Erro ao carregar os planos:", error));
