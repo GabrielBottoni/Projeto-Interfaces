@@ -1,0 +1,19 @@
+{
+    "planos": [
+      {
+        "id":"Básico",
+        "nome": "Lotus Health - Básico",
+        "descricao": "Plano com cobertura essencial para você garantir o atendimento básico com qualidade e agilidade."
+      },
+      {
+        "id":"Intermediário",
+        "nome": "Lotus Health - Intermediário",
+        "descricao": "Plano com uma cobertura ampliada, oferecendo benefícios extras e uma rede de atendimento diferenciada."
+      },
+      {
+        "id":"Premium",
+        "nome": "Lotus Health - Premium",
+        "descricao": "Plano completo com ampla cobertura, acesso facilitado a especialistas e atendimento personalizado."
+      }
+    ]
+  }
